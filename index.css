@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+.logo-kai {
+    background-color: white;  
+}
+
+
+#pesan {
+    color: white;
+    background-color: orange;
+    font-weight: bolder;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    border-radius: 3px;
+    margin-left: 15px;
+    width: auto;
+    max-width: auto;
+}
+
+.latar-belakang {
+    padding-bottom: 800px;
+    
+}
+
+.images {
+    display: flex;
+    transition: 2s;
+    
+}
+
+.images-img {
+    width: 100%;    
+}
+
+.wrapper {
+    width:auto;           
+    max-width: 2000px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin:0 0 0 205px;
+    margin-top: -380px;
+}
+
+#slide-1:target ~.images {
+    margin-left: 0px;
+    
+}
+
+#slide-2:target ~.images {
+    margin-left: -100%;
+}
+
+#slide-3:target ~.images {
+    margin-left: -200%;
+}
+
+#slide-4:target ~.images {
+    margin-left: -300%;
+}
+
+.navigation a {
+    display: inline-block;
+    height:25px;
+    width: 25px;
+    background-color: burlywood;
+    font-size: 0px;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 1s;
+}
+
+.navigation:hover {
+    background-color: aliceblue;
+}
+
+.navigation {
+    margin-left: 200px;
+    margin-right: auto;
+    left: 0;
+    text-align: center;
+    right: 0;
+    margin-top: -50px;
+}
+.navbar {
+    background-color: gray;
+}
+
+.iklan {
+    display: flex;
+    width: 40%;
+    margin:0px 230px 0px 245px;   
+}
+
+.container-satu {
+    width: 1200px;
+    margin: 50px 50px ;
+    margin-left: 350px;
+    display: flex;     
+}
+
+.kereta-utama {
+    flex: 1;
+    order: 2;      
+}
+
+.kereta-kedua {
+    flex: 2;
+    order: 1;   
+}
+
+.kereta-ketiga {
+    flex: 3;
+    order: 3;  
+}
+
+.logo-kategori ul {
+    margin:0 0 0 370px;
+    display: flex;
+    
+}
+
+.container-footer {
+    width: 2300px;
+    margin: 50px 50px -1px ;
+    margin-left: 0px;
+    display: flex;
+    background-color: rgba(18, 2, 54, 0.982);
+    margin-right: 0;
+    color: white;     
+}
+
+.footer-awal {
+    flex: 1;
+    
+}
+
+.footer-kedua {
+    flex: 1;   
+}
+
+.footer-akhir {
+    flex: 1; 
+}
+
+.footer-akhir {
+    background-color: rgb(238, 149, 5);
+    padding: 0 1200px;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
