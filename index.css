@@ -1,10 +1,17 @@
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;      
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo-kai {
-    background-color: white;  
+    background-color: white;
+    border-radius: 10px;
+      
+}
+
+.navbar {
+    background-color: orange;
 }
 
 
@@ -23,16 +30,14 @@
     width: auto;
     max-width: auto;
 }
-
-.latar-belakang {
-    padding-bottom: 800px;
     
+.pemesanan-tiket {
+    color: wheat;
 }
 
 .images {
     display: flex;
-    transition: 2s;
-    
+    transition: 2s;    
 }
 
 .images-img {
@@ -40,13 +45,14 @@
 }
 
 .wrapper {
+    
     width:auto;           
     max-width: 2000px;
     height: auto;
     overflow: hidden;
     position: relative;
-    margin:0 0 0 205px;
-    margin-top: -380px;
+    margin:0 0 0 290px;
+    margin-top: -480px;
 }
 
 #slide-1:target ~.images {
@@ -89,9 +95,7 @@
     right: 0;
     margin-top: -50px;
 }
-.navbar {
-    background-color: gray;
-}
+
 
 .iklan {
     display: flex;
@@ -138,8 +142,10 @@
 }
 
 .footer-awal {
-    flex: 1;
-    
+    flex: 1;   
+}
+.play-store {
+    margin-bottom: 100px;
 }
 
 .footer-kedua {
